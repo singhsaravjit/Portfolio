@@ -1,0 +1,16 @@
+{
+    "education":[
+        {
+            "title": "Sep 2022 - Dec 2024",
+            "cardTitle": "MS, Computer Software Engineering",
+            "cardSubtitle":"Northeastern University, Boston",
+            "cardDetailedText": "CGPA -3.7"
+        },
+        {
+            "title": "Jul 2016 - Sep 2020",
+            "cardTitle": "B.E Electrical and Electronics",
+            "cardSubtitle":"Anna University, Chennai",
+            "cardDetailedText": "CGPA -3.5"
+        }
+    ]
+}

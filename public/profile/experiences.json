@@ -1,0 +1,77 @@
+{
+    "experiences": [
+        {
+            "title": "Software Development Engineer",
+            "subtitle": "Philips North America LLC",
+            "workType": "Full-time",
+            "workDescription": [
+                "Resolved race conditions and deadlocks, enhanced thread safety and stability of the application, and wrote shell scripts in GitHub Actions to automate resource shutdown, reducing costs by 20%.",
+                "Implemented a centralized cache service using a WCF channel, decoupling caching from the provider.",
+                "Employed gRPC to dispatch real-time alarm notifications to the Alarm panel, accelerating notification delivery."
+            ],
+            "dateText": "12/2024 – Present"
+        },
+        {
+            "title": "Software Engineer",
+            "subtitle": "Philips North America LLC",
+            "workType": "Internship",
+            "workDescription": [
+                "Developed features in an in-house configuration tool with C# and WPF to automate 30 minutes of configuration for the PICiX application.",
+                "Programmed a TCP call function to the server, executing every minute, with a manual timer to log responses",
+                "Versioned the topology change and Reduced number of server calls therefore improved the performance of CareAssist App."
+            ],
+            "dateText": "01/2024 – 12/2024"
+        },
+              {
+            "title": "Graduate Teaching Assistant",
+            "subtitle": "Northeastern University",
+            "workType": "Part-time",
+            "workDescription": [
+                "Guided students through challenging Core Java concepts, OOP principles, enhance student understanding",
+                "Introduced GitHub Actions for automated grading, enhancing code review efficiency"
+            ],
+            "dateText": "09/2024 – 12/2024"
+        },
+        {
+            "title": "Graduate Teaching Assistant",
+            "subtitle": "Northeastern University",
+            "workType": "Part-time",
+            "workDescription": [
+                "Assist in lecture delivery and creating course materials covering algorithm complexity, data structures",
+                "Provide students with feedback and explain complex concepts to enhance their understanding of different Algorithms"
+            ],
+            "dateText": "05/2023 – 12/2023"
+        },
+        {
+            "title": "Specialist Programmer",
+            "subtitle": "Infosys Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Utilized Springboot microservice and Angular to design and developed a self-service portal for Verizon, enhancing user experience by reducing latency to 0.05 seconds.",
+                "Enhanced existing messaging brokers by integrating new features for service calls to a newly added Kafka broker, improving large- scale distributed service functionality",
+                "Developed a microservice for caching and designed Redis Cache, significantly lowering response time delay.",
+                "Automated the process of updating Oracle databases using Shell script and written unit testcase using Junit and Mockito"
+            ],
+            "dateText": "11/2020 – 08/2022"
+        },
+        {
+            "title": "Python Trainer",
+            "subtitle": "Adventure Technology Solutions PVT. LTD",
+            "workType": "Full-time",
+            "workDescription": [
+                "Trained Students in Aptitude, Python, and competitive Coding"
+            ],
+            "dateText": "05/2020 –11/2020"
+        },
+        {
+            "title": "Member Technical Staff",
+            "subtitle": "ZOHO Corporation",
+            "workType": "Internship",
+            "workDescription": [
+                "Learned Core Java and Different Communication Protocols",
+                "Developed a Chat Application using UDP and Multi-threading."
+            ],
+            "dateText": "03/2020 – 04/2020"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "projects" : [
+            {
+            "title": "Kafka Server",
+            "bodyText": "- Developed a Custom Kafka Broker: Built a Kafka broker from scratch in Java, implementing core features like producer-consumer messaging, topic management, and message delivery guarantees, ensuring robust and fault-tolerant communication.\n - Optimized concurrency with a multithreaded server using ExecutorService, efficiently handling high-throughput connections with low latency",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokul-j99/code-crafter-kafka"
+                }
+            ],
+            "tags" : [
+                "Distributed system",
+                "Kafka",
+                "Java",
+                "Concurrency"
+            ]
+        },
+    
+        {
+            "title": "AssignmentPortal",
+            "bodyText": "- Deployed production-ready infrastructure utilizing Pulumi, including auto-scaling groups, load balancers, RDS database instances, and CloudWatch alarms across multiple AZs, achieving 99.99% uptime and horizontal scaling during peak traffic\n -  Facilitated a multi-cloud environment, leveraging SNS, Lambda and SES for submission handling and Stored in GCP Bucket\n - Developed shell scripts in computerizing process in GitHubActions & Packer for Ec2 instance helping save manual work by 90%",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/orgs/csye6225Gokul/repositories"
+                }
+            ],
+            "tags" : [
+                "AWS",
+                "GCP",
+                "Packer",
+                "Pulumi",
+                "Github Actions",
+                "IaC"
+            ]
+        },
+        {
+            "title": "Splitwise",
+            "bodyText": "-  A Expense tracker iOS app made using Swift for Students living under same roof.\n -  Utilized Node.js and CRON jobs to send monthly spending reports to users and notification when budget exceeded\n - Implemented individual sessions within the application, allowing groups to record and track their personal expenses, budgets",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokul-j99/splitwise"
+                }
+            ],
+            "tags" : [
+                "Swift",
+                "iOS",
+                "UIKit",
+                "Nodejs"
+            ]
+        },
+        {
+            "image" : "images/projects/flatmate.png",
+            "title": "FlatMate -  Expense tracker App",
+            "bodyText": "- A Expense tracker web app made using MERN stack  for Students living under same roof.\n - Added User authentication and password reset using mail verivication\n -  Private expense is oly shown to the user.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/Flatmate-Expense-Tracker"
+                }
+            ],
+            "tags" : [
+                "Node",
+                "React",
+                "SAAS",
+                "JavaScript",
+                "MongoDB",
+                "Heroku"
+            ]
+        },
+            {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://gokul-jayavel.azurewebsites.net/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+
+        {
+            "image" : "images/projects/ProManage.png",
+            "title": "ProManage",
+            "bodyText": "- Built a Project Management tool for tracking project status and individual stories\n - Used JWT for user authentication, alongside Scheduler for auto-notifications\n - Delivered monthly performance reports and story reminders via email and Implemented role-based access",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/Project-management-tool"
+                }
+            ],
+            "tags" : [
+                "Java",
+                "Springboot",
+                "JWT",
+                "React",
+                "Redux",
+                "MySQL",
+                "Swagger",
+                "Hibernate"
+            ]
+        },
+
+
+        {
+            "image" : "images/projects/Studysidekick.png",
+            "title": "Studysidekick.ai",
+            "bodyText": "-  Studysidekick.ai offers custom study plans with daily topics, assignments, and quizzes based on user's availability and course timeline.\n - Provides real-time guidance, mentorship, and doubt resolution for engaged and motivated learning.\n - Upon course completion, users earn a digital certificate as an NFT for validation and recognition of their achievements.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/studysidekick.ai"
+                }
+            ],
+            "tags" : [
+                "Node",
+                "React",
+                "SAAS",
+                "JavaScript",
+                "Python",
+                "MongoDB",
+                "MaterialUI",
+                "NFT",
+                "Verbwire API",
+                "OpenAI API"
+            ]
+        },
+
+        {
+            "title": "InsurancePlan",
+            "bodyText": "- Built CRUD operations with Redis, used OAuth for login security, and JWT for session management\n - Integrated RabbitMQ for queuing and Elasticsearch for sending data to microservice and indexing data for faster data retrieval",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/InsurancePlan"
+                }
+            ],
+            "tags" : [
+                "Java",
+                "Springboot",
+                "JWT",
+                "OAUTH",
+                "RabbitMQ",
+                "ElasticSearch"
+            ]
+        },
+        
+        {
+            "title": "Task Tracker -frontend",
+            "bodyText": "- A simple Task Tracker web app made with **React**.\n - Used redux.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/todo-app-frontend"
+                }
+            ],
+            "tags" : [
+                "Javascript",
+                "React",
+                "HTML",
+                "SAAS"
+            ]
+        },
+        {
+            "title": "Task Tracker -backend",
+            "bodyText": "- A simple Task Tracker web app backend made with **Node server**.\n ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/todo-app-backend"
+                }
+            ],
+            "tags" : [
+                "Javascript",
+                "Node",
+                "Mongodb",
+                "mongoose"
+            ]
+        },
+        {
+            "title": "E-Kart -frontend",
+            "bodyText": "- A e-commerce application built to  sell the electronic gadgets.**Angular**.\n  ",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/todo-app-frontend"
+                }
+            ],
+            "tags" : [
+                "Typescript",
+                "Angular",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "title": "E-Kart -backend",
+            "bodyText": " - A e-commerce application built to  sell the electronic gadgets.**Spring Boot**.\n- SQL is used as database\n",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/gokuljayavel/backend-ekart-aplication"
+                }
+            ],
+            "tags" : [
+                "Maven",
+                "Spring Boot",
+                "Java",
+                "SQL"
+            ]
+        }
+    ]
+}
