@@ -1,5 +1,6 @@
 {
   "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
+  "installCommand": "npm install --legacy-peer-deps",
   "outputDirectory": "build",
   "env": {
     "CI": "false"
