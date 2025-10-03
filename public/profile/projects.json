@@ -4,7 +4,7 @@
             "title": "Great Western Railway & Southwestern Railways",
             "bodyText": "- Implemented REST API integrations and backend models in .NET C# for a railway support system used by 5 UK train operators.\n- Reduced deployment errors by 25% and enabled smooth data exchange.",
             "links": [
-                { "text": "GWR", "href": "#" }
+                { "text": "GWR", "href": "https://www.gwr.com/" }
             ],
             "tags" : [".NET", "C#", "REST", "React", "Next.js"]
         },
@@ -12,15 +12,31 @@
             "title": "Altudo Marketing Website",
             "bodyText": "- Built a Sitecore 10.2 website with React and .NET, cutting load time by 30%.\n- Increased visitor session duration by 18% with accessibility improvements.",
             "links": [
-                { "text": "Altudo", "href": "#" }
+                { "text": "Altudo", "href": "https://www.altudo.co/" }
             ],
             "tags" : ["Sitecore", ".NET", "React", "TypeScript"]
         },
         {
+            "title": "Java Calendar Management Platform",
+            "bodyText": "- Built a Java-based calendar system with Swing GUI + CLI, supporting recurring events, conflict detection, and CSV import/export.\n- Applied MVC and SOLID design with command pattern, enabling modularity, cross-timezone adjustments, and feature scalability.",
+            "links": [
+              { "text": "Khoury College of Computer Sciences", "href": "https://www.khoury.northeastern.edu/" }
+            ],
+            "tags": ["Java", "Swing", "MVC", "SOLID", "Command Pattern", "CSV"]
+          },
+          {
+            "title": "Society for Neuroscience Website",
+            "bodyText": "- Maintained Sitecore 9.3 CMS backend and .NET C# UI components, streamlining staff content publishing.\n- Optimized performance, improving navigation speed by 25% and enhancing user experience.",
+            "links": [
+              { "text": "SFN", "href": "https://www.sfn.org/" }
+            ],
+            "tags": ["Sitecore 9.3", ".NET", "C#", "CMS", "Web Development"]
+          },          
+        {
             "title": "Campus Recruitment Management Platform",
             "bodyText": "- Role‑based dashboards for students, recruiters, and admins in Angular + Java.\n- MySQL with 15+ tables, procedures, and triggers for robust data logic.",
             "links": [
-                { "text": "GitHub", "href": "#" }
+                { "text": "GitHub", "href": "https://github.com/singhsaravjit/Campus-Placement-Backend" }
             ],
             "tags" : ["Angular", "TypeScript", "Java", "MySQL", "Maven"]
         },
@@ -28,7 +44,7 @@
             "title": "C++ Search Engine Implementation",
             "bodyText": "- Inverted indexing with TF‑IDF scoring and OOP design.\n- Achieved O(log n) query performance with real‑time normalization and snippets.",
             "links": [
-                { "text": "GitHub", "href": "#" }
+                { "text": "GitHub", "href": "https://github.com/singhsaravjit/Search-Engine" }
             ],
             "tags" : ["C++", "Multithreading", "Data Structures"]
         }
