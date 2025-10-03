@@ -1,5 +1,5 @@
 {
-    "intro": "Core strengths across React/Next.js and .NET, with experience in Sitecore, CI quality gates, and performance optimization.",
+    "intro": "Skills per resume only.",
     "skills": [{
             "title": "Languages & Databases",
             "items" : [
@@ -8,6 +8,7 @@
                 { "icon": "images/skills/typescript.png", "title": "TypeScript" },
                 { "icon": "images/skills/java.png", "title": "Java" },
                 { "icon": "images/skills/go.png", "title": "Go" },
+                { "icon": "images/skills/c-plus-plus.svg", "title": "C++" },
                 { "icon": "images/skills/mysql.png", "title": "MySQL" },
                 { "icon": "images/skills/mongo-db.png", "title": "MongoDB" },
                 { "icon": "images/skills/html.png", "title": "HTML5" },
@@ -15,23 +16,17 @@
             ]
         },
         {
-            "title": "Frameworks & Technologies",
+            "title": "Frameworks & Libraries",
             "items" : [
                 { "icon": "images/skills/react.png", "title": "React" },
-                { "icon": "images/skills/angular.png", "title": "Angular" },
-                { "icon": "images/skills/nodejs.png", "title": "Node.js" },
-                { "icon": "images/skills/spring.png", "title": "Spring Boot" },
-                { "icon": "images/skills/kafka.png", "title": "Kafka" },
-                { "icon": "images/skills/elasticsearch.png", "title": "Elasticsearch" }
+                { "icon": "images/skills/nodejs.png", "title": "Node.js" }
             ]
         },
         {
             "title" : "Tools & Platforms",
             "items": [
                 { "icon": "images/skills/git.png", "title": "Git" },
-                { "icon": "images/skills/docker.png", "title": "Docker" },
-                { "icon": "images/skills/aws.png", "title": "AWS" },
-                { "icon": "images/skills/azure.png", "title": "Azure" }
+                { "icon": "images/skills/docker.png", "title": "Docker" }
             ]
     }
 ]}
