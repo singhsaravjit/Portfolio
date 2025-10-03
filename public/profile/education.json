@@ -1,16 +1,16 @@
 {
     "education":[
         {
-            "title": "Sep 2022 - Dec 2024",
-            "cardTitle": "MS, Computer Software Engineering",
-            "cardSubtitle":"Northeastern University, Boston",
-            "cardDetailedText": "CGPA -3.7"
+            "title": "Jan 2025 - May 2027",
+            "cardTitle": "M.S., Computer Science",
+            "cardSubtitle":"Northeastern University, Boston, USA",
+            "cardDetailedText": "GPA: 4.0/4.0 — Coursework: DBMS, Design Paradigms, Algorithms, Foundations of AI, Web Development"
         },
         {
-            "title": "Jul 2016 - Sep 2020",
-            "cardTitle": "B.E Electrical and Electronics",
-            "cardSubtitle":"Anna University, Chennai",
-            "cardDetailedText": "CGPA -3.5"
+            "title": "Jul 2017 - May 2021",
+            "cardTitle": "B.E., Computer Science",
+            "cardSubtitle":"Birla Institute of Technology, Mesra, India",
+            "cardDetailedText": "GPA: 8.9/10 — Coursework: DS & Algorithms, OS, Digital Electronics"
         }
     ]
 }

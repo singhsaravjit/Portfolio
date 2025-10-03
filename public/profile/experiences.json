@@ -1,77 +1,37 @@
 {
     "experiences": [
         {
-            "title": "Software Development Engineer",
-            "subtitle": "Philips North America LLC",
+            "title": "Software Engineer",
+            "subtitle": "Q3 Technologies",
             "workType": "Full-time",
             "workDescription": [
-                "Resolved race conditions and deadlocks, enhanced thread safety and stability of the application, and wrote shell scripts in GitHub Actions to automate resource shutdown, reducing costs by 20%.",
-                "Implemented a centralized cache service using a WCF channel, decoupling caching from the provider.",
-                "Employed gRPC to dispatch real-time alarm notifications to the Alarm panel, accelerating notification delivery."
+                "Maintained and enhanced Rail Help for 5 operators by building React + .NET Core components and fixing defects, preventing interruptions across 200+ daily train schedules and improving booking reliability for 50,000+ passengers.",
+                "Developed React + Sitecore 9.3 modules (MVC, .NET Core/C#, Helix, Next.js) that improved content publishing speed by 32% and overall system performance by 25%.",
+                "Integrated SonarQube in CI with Docker, Git, and Bitbucket; automated quality gates and reduced defects by 20%, cutting release time by 15%."
             ],
-            "dateText": "12/2024 – Present"
+            "dateText": "10/2022 – 12/2024"
         },
         {
             "title": "Software Engineer",
-            "subtitle": "Philips North America LLC",
-            "workType": "Internship",
-            "workDescription": [
-                "Developed features in an in-house configuration tool with C# and WPF to automate 30 minutes of configuration for the PICiX application.",
-                "Programmed a TCP call function to the server, executing every minute, with a manual timer to log responses",
-                "Versioned the topology change and Reduced number of server calls therefore improved the performance of CareAssist App."
-            ],
-            "dateText": "01/2024 – 12/2024"
-        },
-              {
-            "title": "Graduate Teaching Assistant",
-            "subtitle": "Northeastern University",
-            "workType": "Part-time",
-            "workDescription": [
-                "Guided students through challenging Core Java concepts, OOP principles, enhance student understanding",
-                "Introduced GitHub Actions for automated grading, enhancing code review efficiency"
-            ],
-            "dateText": "09/2024 – 12/2024"
-        },
-        {
-            "title": "Graduate Teaching Assistant",
-            "subtitle": "Northeastern University",
-            "workType": "Part-time",
-            "workDescription": [
-                "Assist in lecture delivery and creating course materials covering algorithm complexity, data structures",
-                "Provide students with feedback and explain complex concepts to enhance their understanding of different Algorithms"
-            ],
-            "dateText": "05/2023 – 12/2023"
-        },
-        {
-            "title": "Specialist Programmer",
-            "subtitle": "Infosys Ltd",
+            "subtitle": "Altudo",
             "workType": "Full-time",
             "workDescription": [
-                "Utilized Springboot microservice and Angular to design and developed a self-service portal for Verizon, enhancing user experience by reducing latency to 0.05 seconds.",
-                "Enhanced existing messaging brokers by integrating new features for service calls to a newly added Kafka broker, improving large- scale distributed service functionality",
-                "Developed a microservice for caching and designed Redis Cache, significantly lowering response time delay.",
-                "Automated the process of updating Oracle databases using Shell script and written unit testcase using Junit and Mockito"
+                "Led development of the Society for Neuroscience website using MVC and Sitecore integrations, improving publishing speed by 20% and reducing release time for new pages by 2 hours.",
+                "Built a responsive Sitecore 10.2 site with React, .NET, and TypeScript; reduced frontend load time by 30% and met WCAG accessibility standards, increasing average session duration by 18%.",
+                "Collaborated with QA and PMs in Agile to build modules, migrate content, and deliver updates for multiple clients on Sitecore and SQL Server, delivering 100% of projects on time."
             ],
-            "dateText": "11/2020 – 08/2022"
+            "dateText": "06/2021 – 10/2022"
         },
         {
-            "title": "Python Trainer",
-            "subtitle": "Adventure Technology Solutions PVT. LTD",
-            "workType": "Full-time",
-            "workDescription": [
-                "Trained Students in Aptitude, Python, and competitive Coding"
-            ],
-            "dateText": "05/2020 –11/2020"
-        },
-        {
-            "title": "Member Technical Staff",
-            "subtitle": "ZOHO Corporation",
+            "title": "Software Engineering Intern",
+            "subtitle": "Nvidia",
             "workType": "Internship",
             "workDescription": [
-                "Learned Core Java and Different Communication Protocols",
-                "Developed a Chat Application using UDP and Multi-threading."
+                "Developed a motion‑adaptive deinterlacing algorithm in C++, reducing visual artifacts by 35% and improving clarity across multiple video pipelines.",
+                "Integrated CUDA‑based parallel processing into FFmpeg workflows, achieving 3× faster processing and enabling 60 FPS playback with 50% lower rendering latency.",
+                "Executed 100+ test cycles on Linux with QA to validate pipelines, improving reliability by 25% and ensuring broadcast‑grade results."
             ],
-            "dateText": "03/2020 – 04/2020"
+            "dateText": "01/2021 – 06/2021"
         }
     ]
 }
