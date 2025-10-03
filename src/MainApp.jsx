@@ -1,5 +1,14 @@
-import React, { useState, useEffect, Suspense, useRef } from 'react';
-import { Switch, Route, useHistory } from 'react-router-dom';
+import React, {
+  useState,
+  useEffect,
+  Suspense,
+  useRef,
+} from 'react';
+import {
+  Switch,
+  Route,
+  useHistory,
+} from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
@@ -21,7 +30,9 @@ function MainApp() {
 
   // Scroll to navigate between sections in order
   useEffect(() => {
-    if (!data || !data.sections) return;
+    if (!data || !data.sections) {
+      return () => {};
+    }
 
     const paths = ['/', ...data.sections.map((s) => s.path)];
 
