@@ -19,9 +19,6 @@
         {
             "title": "Java Calendar Management Platform",
             "bodyText": "- Built a Java-based calendar system with Swing GUI + CLI, supporting recurring events, conflict detection, and CSV import/export.\n- Applied MVC and SOLID design with command pattern, enabling modularity, cross-timezone adjustments, and feature scalability.",
-            "links": [
-              { "text": "Khoury College of Computer Sciences", "href": "https://www.khoury.northeastern.edu/" }
-            ],
             "tags": ["Java", "Swing", "MVC", "SOLID", "Command Pattern", "CSV"]
           },
           {
