@@ -1,6 +1,31 @@
 {
     "experiences": [
         {
+            "title": "Graduate Teaching Assistant – CS3100: Program Design and Implementation",
+            "subtitle": "Northeastern University",
+            "workType": "Part-time",
+            "workDescription": [
+              "Supported 500+ students in mastering advanced programming concepts by conducting weekly office hours, clarifying course material, and guiding debugging/troubleshooting in labs.",
+              "Led practical lab sessions to reinforce core programming principles, data structures, and software engineering best practices, ensuring students gained hands-on implementation skills.",
+              "Graded assignments, projects, and exams using automated testing tools and rubrics, providing constructive feedback that improved student performance and reduced rework.",
+              "Worked with Java, Python, Git/GitHub, and unit testing frameworks to help students debug and optimize solutions, strengthening my expertise in object-oriented programming, modular design, and version control."
+            ],
+            "dateText": "09/2025 – Present"
+          },
+          {
+            "title": "Teaching Assistant – CS3520: Programming in C++",
+            "subtitle": "Northeastern University",
+            "workType": "Part-time",
+            "workDescription": [
+              "Assisted 80+ students with C++ programming concepts including memory management, OOP, pointers/references, STL, and algorithm design during office hours and lab sessions.",
+              "Reviewed and graded programming assignments, ensuring fairness and accuracy while reinforcing industry-standard coding practices.",
+              "Provided one-on-one support to debug, refactor, and optimize C++ code, improving student understanding of performance trade-offs and efficiency.",
+              "Strengthened technical proficiency in C++, Visual Studio, g++, Git, and debugging tools (Valgrind, GDB), while reinforcing fundamentals of data structures and algorithms."
+            ],
+            "dateText": "05/2025 – 06/2025"
+          }
+,          
+        {
             "title": "Software Engineer",
             "subtitle": "Q3 Technologies",
             "workType": "Full-time",

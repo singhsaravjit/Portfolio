@@ -4,13 +4,13 @@
             "title": "Jan 2025 - May 2027",
             "cardTitle": "M.S., Computer Science",
             "cardSubtitle":"Northeastern University, Boston, USA",
-            "cardDetailedText": "GPA: 4.0/4.0 — Coursework: DBMS, Design Paradigms, Algorithms, Foundations of AI, Web Development"
+            "cardDetailedText": "GPA: 4.0/4.0 — Coursework: Algorithms, DBMS, Design Paradigms, Foundations of AI, Web Development"
         },
         {
             "title": "Jul 2017 - May 2021",
             "cardTitle": "B.E., Computer Science",
             "cardSubtitle":"Birla Institute of Technology, Mesra, India",
-            "cardDetailedText": "GPA: 8.9/10 — Coursework: DS & Algorithms, OS, Digital Electronics"
+            "cardDetailedText": "GPA: 8.9/10 — Coursework: Data Structures & Algorithms, Operating Systems, Digital Electronics"
         }
     ]
 }
