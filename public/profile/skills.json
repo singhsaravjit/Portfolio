@@ -9,8 +9,12 @@
                 { "icon": "images/skills/java.png", "title": "Java" },
                 { "icon": "images/skills/go.png", "title": "Go" },
                 { "icon": "images/skills/c-plus-plus.svg", "title": "C++" },
+                { "icon": "images/skills/c.png", "title": "C" },
+                { "icon": "images/skills/c#.png", "title": "C#" },
+                { "icon": "images/skills/r.png", "title": "R" },
                 { "icon": "images/skills/mysql.png", "title": "MySQL" },
                 { "icon": "images/skills/mongo-db.png", "title": "MongoDB" },
+                { "icon": "images/skills/sqlserver.png", "title": "SQL Server" },
                 { "icon": "images/skills/html.png", "title": "HTML5" },
                 { "icon": "images/skills/css.png", "title": "CSS3" }
             ]
@@ -19,14 +23,24 @@
             "title": "Frameworks & Libraries",
             "items" : [
                 { "icon": "images/skills/react.png", "title": "React" },
-                { "icon": "images/skills/nodejs.png", "title": "Node.js" }
+                { "icon": "images/skills/nextjs.png", "title": "Next.js" },
+                { "icon": "images/skills/graphql.png", "title": "GraphQL" },
+                { "icon": "images/skills/nodejs.png", "title": "Node.js" },
+                { "icon": "images/skills/Net.png", "title": ".NET" }
             ]
         },
         {
             "title" : "Tools & Platforms",
             "items": [
                 { "icon": "images/skills/git.png", "title": "Git" },
-                { "icon": "images/skills/docker.png", "title": "Docker" }
+                { "icon": "images/skills/bitbucket.png", "title": "Bitbucket" },
+                { "icon": "images/skills/jira.png", "title": "Jira" },
+                { "icon": "images/skills/docker.png", "title": "Docker" },
+                { "icon": "images/skills/linux.png", "title": "Linux" },
+                { "icon": "images/skills/powershell.png", "title": "PowerShell" },
+                { "icon": "images/skills/sitecore.png", "title": "Sitecore" },
+                { "icon": "images/skills/maven.png", "title": "Maven" },
+                { "icon": "images/skills/sonarqube.png", "title": "SonarQube" }
             ]
     }
 ]}
