@@ -28,7 +28,7 @@ function MainApp() {
       .catch((err) => err);
   }, []);
 
-  // Scroll to navigate between sections in order
+  // Scroll to navigate between sections when reaching bottom of page
   useEffect(() => {
     if (!data || !data.sections) {
       return () => {};
@@ -36,35 +36,38 @@ function MainApp() {
 
     const paths = ['/', ...data.sections.map((s) => s.path)];
 
-    const onWheel = (e) => {
+    const onScroll = () => {
       // Prevent rapid multi-triggers
       if (isScrollingRef.current) return;
 
-      const delta = e.deltaY;
-      if (Math.abs(delta) < 30) return;
+      // Check if user has scrolled to the bottom of the page
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+      
+      // Consider "bottom" as within 50px of the actual bottom
+      const isAtBottom = scrollTop + windowHeight >= documentHeight - 50;
 
-      const currentPath = history.location.pathname;
-      const currentIndex = Math.max(0, paths.indexOf(currentPath));
+      if (isAtBottom) {
+        const currentPath = history.location.pathname;
+        const currentIndex = Math.max(0, paths.indexOf(currentPath));
 
-      let nextIndex = currentIndex;
-      if (delta > 0 && currentIndex < paths.length - 1) {
-        nextIndex = currentIndex + 1;
-      } else if (delta < 0 && currentIndex > 0) {
-        nextIndex = currentIndex - 1;
-      }
-
-      if (nextIndex !== currentIndex) {
-        isScrollingRef.current = true;
-        history.push(paths[nextIndex]);
-        // simple cooldown to avoid multiple route changes per wheel gesture
-        setTimeout(() => {
-          isScrollingRef.current = false;
-        }, 600);
+        // Navigate to next page if not at the last page
+        if (currentIndex < paths.length - 1) {
+          isScrollingRef.current = true;
+          history.push(paths[currentIndex + 1]);
+          
+          // Scroll to top of new page
+          setTimeout(() => {
+            window.scrollTo(0, 0);
+            isScrollingRef.current = false;
+          }, 100);
+        }
       }
     };
 
-    window.addEventListener('wheel', onWheel, { passive: true });
-    return () => window.removeEventListener('wheel', onWheel);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, [data, history]);
 
   return (
