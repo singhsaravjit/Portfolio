@@ -44,7 +44,7 @@ function MainApp() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
-      
+
       // Consider "bottom" as within 50px of the actual bottom
       const isAtBottom = scrollTop + windowHeight >= documentHeight - 50;
 
@@ -56,7 +56,7 @@ function MainApp() {
         if (currentIndex < paths.length - 1) {
           isScrollingRef.current = true;
           history.push(paths[currentIndex + 1]);
-          
+
           // Scroll to top of new page
           setTimeout(() => {
             window.scrollTo(0, 0);
