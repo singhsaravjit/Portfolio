@@ -36,7 +36,7 @@ function MainApp() {
 
     const paths = ['/', ...data.sections.map((s) => s.path)];
 
-    const onScroll = () => {
+    const checkAndNavigate = () => {
       // Prevent rapid multi-triggers
       if (isScrollingRef.current) return;
 
@@ -45,10 +45,13 @@ function MainApp() {
       const windowHeight = window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
 
-      // Consider "bottom" as within 50px of the actual bottom
-      const isAtBottom = scrollTop + windowHeight >= documentHeight - 50;
+      // Consider "bottom" as within 100px of the actual bottom, or if content is short
+      const isAtBottom = scrollTop + windowHeight >= documentHeight - 100;
 
-      if (isAtBottom) {
+      // Also trigger if the page content is shorter than viewport (no scrolling needed)
+      const isShortContent = documentHeight <= windowHeight + 100;
+
+      if (isAtBottom || isShortContent) {
         const currentPath = history.location.pathname;
         const currentIndex = Math.max(0, paths.indexOf(currentPath));
 
@@ -66,8 +69,24 @@ function MainApp() {
       }
     };
 
+    const onScroll = checkAndNavigate;
+    const onWheel = (e) => {
+      // Also check on wheel events for short content pages
+      if (e.deltaY > 0) { // Scrolling down
+        setTimeout(checkAndNavigate, 100);
+      }
+    };
+
+    // Check immediately when component mounts (for short content)
+    setTimeout(checkAndNavigate, 500);
+
     window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener('wheel', onWheel, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('wheel', onWheel);
+    };
   }, [data, history]);
 
   return (
