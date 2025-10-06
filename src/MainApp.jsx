@@ -6,7 +6,6 @@ import React, {
 import {
   Switch,
   Route,
-  useHistory,
 } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
@@ -15,7 +14,6 @@ import endpoints from './constants/endpoints';
 
 function MainApp() {
   const [data, setData] = useState(null);
-  const history = useHistory();
 
   useEffect(() => {
     fetch(endpoints.routes, {
@@ -25,7 +23,6 @@ function MainApp() {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-
 
   return (
     <div className="MainApp">
