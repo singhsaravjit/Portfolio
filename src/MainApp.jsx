@@ -10,6 +10,8 @@ import {
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
+import ScrollToTop from './components/ScrollToTop';
+import ChatBot from './components/ChatBot';
 import endpoints from './constants/endpoints';
 
 function MainApp() {
@@ -47,6 +49,8 @@ function MainApp() {
           </Suspense>
         </Switch>
       </main>
+      <ScrollToTop />
+      <ChatBot />
     </div>
   );
 }
